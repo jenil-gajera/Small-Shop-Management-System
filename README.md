@@ -1,0 +1,1 @@
+# Small-Shop-Management-System
