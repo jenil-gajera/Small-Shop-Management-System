@@ -1,0 +1,14 @@
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\bin\Debug\ShopManagementHost.exe.config
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\bin\Debug\ShopManagementHost.exe
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\bin\Debug\ShopManagementHost.pdb
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.csproj.AssemblyReference.cache
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.Form1.resources
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.Properties.Resources.resources
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.csproj.GenerateResource.cache
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.csproj.CoreCompileInputs.cache
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.exe
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.pdb
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\bin\Debug\Small_Shop_Management_System.dll
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\bin\Debug\Small_Shop_Management_System.pdb
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\bin\Debug\Small_Shop_Management_System.dll.config
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\ShopManagementHost\obj\Debug\ShopManagementHost.csproj.CopyComplete

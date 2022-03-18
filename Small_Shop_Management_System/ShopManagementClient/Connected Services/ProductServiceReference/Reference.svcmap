@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="954f2c02-2445-43ce-bc05-569c03cf16ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/Small_Shop_Management_System" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductService.wsdl" MetadataType="Wsdl" ID="1dcc76aa-1cd1-47ac-9d00-9bb2cb81d24c" SourceId="1" SourceUrl="http://localhost:8000/Small_Shop_Management_System?wsdl" />
+    <MetadataFile FileName="Small_Shop_Management_System.disco" MetadataType="Disco" ID="8cb4664c-7bb9-41c3-8295-61716f734a61" SourceId="1" SourceUrl="http://localhost:8000/Small_Shop_Management_System?disco" />
+    <MetadataFile FileName="Small_Shop_Management_System.xsd" MetadataType="Schema" ID="af340b89-2a77-4979-acd2-0c025b120dda" SourceId="1" SourceUrl="http://localhost:8000/Small_Shop_Management_System?xsd=xsd3" />
+    <MetadataFile FileName="Small_Shop_Management_System1.xsd" MetadataType="Schema" ID="3a0e715c-7a27-424f-b21b-a7abab4b48d4" SourceId="1" SourceUrl="http://localhost:8000/Small_Shop_Management_System?xsd=xsd2" />
+    <MetadataFile FileName="Small_Shop_Management_System2.xsd" MetadataType="Schema" ID="36d29062-d176-4c03-a164-f807d81d9ed1" SourceId="1" SourceUrl="http://localhost:8000/Small_Shop_Management_System?xsd=xsd0" />
+    <MetadataFile FileName="Small_Shop_Management_System3.xsd" MetadataType="Schema" ID="83bbeb4e-f40e-4b49-89d5-db7e92b3525a" SourceId="1" SourceUrl="http://localhost:8000/Small_Shop_Management_System?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

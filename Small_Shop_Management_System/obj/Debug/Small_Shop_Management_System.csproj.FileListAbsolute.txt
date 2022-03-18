@@ -1,0 +1,7 @@
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\bin\Debug\Small_Shop_Management_System.dll.config
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\bin\Debug\Small_Shop_Management_System.dll
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\bin\Debug\Small_Shop_Management_System.pdb
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\obj\Debug\Small_Shop_Management_System.csproj.CoreCompileInputs.cache
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\obj\Debug\Small_Shop_Management_System.dll
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\obj\Debug\Small_Shop_Management_System.pdb
+D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\obj\Debug\Small_Shop_Management_System.csproj.AssemblyReference.cache

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9dd2eeaf-5e3f-4ddd-b91c-5816a0720f25" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/Small_Shop_Management_System/BillService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="34e20c3d-1b17-4145-b24b-5e6e61abf557" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Small_Shop_Management_System/BillService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="0c87e130-0c85-4626-b56e-6d3d371c96d0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Small_Shop_Management_System/BillService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="524fc62e-ba1d-423d-8a2b-19ace15fec50" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Small_Shop_Management_System/BillService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="d3ce00f1-5efb-46f1-b682-263bf6a97311" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Small_Shop_Management_System/BillService/mex" />
+    <MetadataFile FileName="Small_Shop_Management_System.xsd" MetadataType="Schema" ID="a75a7834-3344-46c4-b945-c80575b63c84" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/Small_Shop_Management_System/BillService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
