@@ -26,7 +26,13 @@ namespace ShopManagementClient
             listBox1.DisplayMember = "Name";
             listBox1.ValueMember = "Id";
             sc.Close();
-            
+
+            ShopManagementClient.ProductServiceReference.ProductServiceClient proxy = new ShopManagementClient.ProductServiceReference.ProductServiceClient("BasicHttpBinding_IProductService");
+            ShopManagementClient.ProductServiceReference.Product product = proxy.GetProduct(int.Parse(listBox1.SelectedValue.ToString()));
+            name.Text = product.Name.ToString();
+            category.Text = product.Category;
+            price.Text = product.Price.ToString();
+            quantity.Text = product.Quantity.ToString();
         }
 
         private void update_Click(object sender, EventArgs e)
@@ -38,6 +44,7 @@ namespace ShopManagementClient
                 {
                     int id = int.Parse(listBox1.SelectedValue.ToString());
                     ShopManagementClient.ProductServiceReference.Product p = new ProductServiceReference.Product();
+                    
                     p.Id = id;
                     p.Name = name.Text;
                     p.Category = category.Text;
@@ -56,6 +63,16 @@ namespace ShopManagementClient
             {
                 sc.Close();
             }
+        }
+
+        private void listBox1_click(object sender, EventArgs e)
+        {
+            ShopManagementClient.ProductServiceReference.ProductServiceClient proxy = new ShopManagementClient.ProductServiceReference.ProductServiceClient("BasicHttpBinding_IProductService");
+            ShopManagementClient.ProductServiceReference.Product product = proxy.GetProduct(int.Parse(listBox1.SelectedValue.ToString()));
+            name.Text = product.Name.ToString();
+            category.Text = product.Category;
+            price.Text = product.Price.ToString();
+            quantity.Text = product.Quantity.ToString();
         }
     }
 }

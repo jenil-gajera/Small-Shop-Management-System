@@ -167,6 +167,9 @@
     <None Include="Connected Services\ProductServiceReference\ShopManagementClient.ProductServiceReference.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Connected Services\ProductServiceReference\ShopManagementClient.ProductServiceReference.Product.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Connected Services\ProductServiceReference\Small_Shop_Management_System.xsd">
       <SubType>Designer</SubType>
     </None>

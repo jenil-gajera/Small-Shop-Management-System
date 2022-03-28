@@ -19,7 +19,32 @@ namespace Small_Shop_Management_System
             DataSet ds = new DataSet();
             da.Fill(ds, "products");
             return ds;
-        } 
+        }  
+
+        public Product GetProduct(int id)
+        {
+            SqlConnection cnn = new SqlConnection(
+                @"Data Source = (LocalDb)\MSSQLLocalDB; Initial Catalog = myshop; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cnn;
+            cmd.CommandText = "SELECT Id, Name, Category, Price, Quantity FROM products WHERE Id = @id";
+            SqlParameter p = new SqlParameter("@id", id);
+            cmd.Parameters.Add(p);
+            cnn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            Product product = new Product();
+            while(reader.Read())
+            {
+                product.Id = reader.GetInt32(0);
+                product.Name = reader.GetString(1);
+                product.Category = reader.GetString(2);
+                product.Price = reader.GetInt32(3);
+                product.Quantity = reader.GetInt32(4);
+            }
+            reader.Close();
+            cnn.Close();
+            return product;
+        }
         public string AddProduct(Product product)
         {
             SqlConnection con = new SqlConnection(@"Data Source = (LocalDb)\MSSQLLocalDB; Initial Catalog = myshop; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");

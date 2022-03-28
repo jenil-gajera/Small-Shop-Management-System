@@ -1,1 +1,0 @@
-D:\SOC Project\Small-Shop-Management-System\Small_Shop_Management_System\BillManagement\obj\Debug\BillManagement.csproj.CoreCompileInputs.cache

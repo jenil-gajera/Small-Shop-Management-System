@@ -50,7 +50,8 @@ namespace ShopManagementClient
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(127, 324);
             this.listBox1.TabIndex = 0;
-            // 
+            this.listBox1.Click += new System.EventHandler(this.listBox1_click);
+          
             // label1
             // 
             this.label1.AutoSize = true;

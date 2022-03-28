@@ -15,8 +15,8 @@ namespace Small_Shop_Management_System
         [OperationContract]
         DataSet GetProducts();
 
-        //[OperationContract]
-        //Product GetProduct(string name);
+        [OperationContract]
+        Product GetProduct(int id);
 
         [OperationContract]
         string AddProduct(Product product);
